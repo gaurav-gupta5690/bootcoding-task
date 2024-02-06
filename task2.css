@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.web{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    background: rgb(242, 48, 48);
+    color: white;
+}
+
+.web h1{
+    font-size: 50px;
+}
+
+header{
+    background-color: rgb(180, 180, 190);
+    padding-bottom: 3%;
+}
+
+header a {
+    font-size: 20px;
+    float: left;
+    display: inline-flexbox;
+    color: rgb(36, 30, 213);
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  header a.contact{
+    float: right;
+  }
+
+  header a:hover{
+    display: flex;
+    color: black;
+    background-color: aliceblue;
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.side{
+    background-color: #efeaea;
+}
